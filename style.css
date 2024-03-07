@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 100%;
+    height: 80px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: #085E54;
+    font-family: roboto;
+    font-weight: bold;
+
+}
+.nav-link a:hover{
+    color: #262626;
+}
+/* creatying the sub heading*/
+.sub-heading{
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto;
+    margin-top: 40px;
+}
+
+audio{
+    width: 420px;
+    margin-top: 80px;
+}
+
+/* we want to create the footer section*/
+
+footer{
+    min-width: 100%;
+    height: 200px;
+    margin-top: 150px;   
+    background-color: brown;
+}
+
+.footer-h4{
+    text-align: center;
+    font-size: 30px;
+    color: antiquewhite;
+    padding-top: 80px;  
+}
